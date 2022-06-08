@@ -1,0 +1,24 @@
+.cabecalho {
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+    border-radius: 20px 20px 0 0;
+    background-image: linear-gradient(to bottom, #ff487c, #522e99, #33a4cb);
+    padding: 1rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        width: 25%;
+    }
+    
+}

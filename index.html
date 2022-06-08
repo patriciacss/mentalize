@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./base.css">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./cabecalho.css">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+        <title>Mentalize</title>
+    </head>
+
+    <body>
+        <header class="cabecalho container">Mentalize</header>
+        <main>
+            <div class="formulario container">
+                <img src="./icons/icone1.png" alt="Ícone de um et" class="icone1">
+
+                    <form action="#" class="formulario container">
+                            <label for="nick"> Nick:</label>
+                            <input type="text" id="nick" placeholder="Digite seu nickname" required>
+                        <div>
+                        <legend class="legenda">Intervalo:</legend>
+                        <select id="intervalo">
+                            <option value="1">Opção 1: 1 a 10</option>
+                            <option value="2">Opção 2: 1 a 100</option>
+                            <option value="3">Opção 3: 1 a 200</option>
+                        </select><br>
+                        </div>
+                            <button class="botao1" onclick="Mostrar()">Começar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="game container">  
+                <div class="bemvindo"><h2 id="bemvindo">Identifique-se e escolha um nível para jogar.</h2></div>  
+                <div class="form-box" style="display: none;" id="divoculta">
+                    <label for="valor">Digite um número:</label><br>
+                    <input type="number" id="valor" required onfocus="this.value='';" /><br>
+                    <button type="submit" class="botao2" onclick="Chutar()">Jogar</button><br>
+                    <h3 class="resultado" id="resultado">Você tem 3 chances.</h3>
+                </div>
+                </div>
+            </div>
+        </main>
+    <script src="script.js"></script>
+    </body>
+</html>

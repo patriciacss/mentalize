@@ -1,0 +1,18 @@
+:root {
+    --fonte-principal: 'Stick No Bills';
+    --rosa: #ff487c;
+    --roxo: #522e99;
+    --azul: #33a4cb;
+}
+
+
+.container {
+    font-family: 'Stick No Bills';
+}
+
+body {
+    background-image: url(./icons/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
